@@ -141,8 +141,16 @@ table {
 html,
 body {
   height: 100%;
+  background-color: indigo;
+  font-size: 62.5%;
 }
 
 body {
-  background-color: midnightblue;
+
+  max-width: 1400px;
 }
+
+
+
+/* }
+background-image: url("clouds.jpg"); */
