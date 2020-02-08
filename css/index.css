@@ -136,4 +136,12 @@ body {
 }
 body {
   background-color: midnightblue;
+  font-family: 'Kelly Slab', cursive;
+}
+nav {
+  background-color: orchid;
+}
+nav .links {
+  display: flex;
+  flex-direction: column;
 }
