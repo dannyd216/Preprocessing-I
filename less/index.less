@@ -145,12 +145,14 @@ body {
 	height: 100%;
 }
 
-@bodyColor: midnightblue;
+//@bodyColor: midnightblue;
 
 body {
-	background-color: @bodyColor;
+	//background-color: @bodyColor;
 
 	font-family: 'Kelly Slab', cursive;
+
+	margin: 0;
 }
 
 // NAV BAR 
@@ -168,6 +170,43 @@ nav .links{
 // TOP SECTION
 
 //HERO PHOTO
-.topHalf {
-	pics
+
+.topHalf{
+
+	/* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    
+    /* Background styles */
+    background-image: url(clouds.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.topHalf #personalState {
+
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(Preprocessing-I\clouds.jpg);
+	
+	/* Set a specific height */
+
+	height: 50%;
+  
+	/* Position and center the image to scale nicely on all screens */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	
+
 }
