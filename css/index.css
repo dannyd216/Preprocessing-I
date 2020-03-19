@@ -1,1 +1,287 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  line-height: 2;
+  font-size: 1.5rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  letter-spacing: 3px;
+  padding: 0;
+}
+/********NAV SECTION****************/
+nav {
+  display: flex;
+  font-size: 3rem;
+  background-color: black;
+}
+nav a {
+  text-decoration: none;
+  color: lightslategray;
+}
+.title h1 {
+  font-size: 9rem;
+  text-align: center;
+  color: gainsboro;
+  font-weight: bolder;
+}
+header {
+  height: 80vh;
+  background-color: mediumturquoise;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3kjJtrCK2AkhyMerpOMSSXR3jWKEpGUGQeEdeySuwten9hTor');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/***ABOUT ME SECTION****************/
+#about {
+  background-color: lightslategray;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+}
+#about .text {
+  background-color: lightskyblue;
+  padding: 4%;
+  text-align: center;
+  width: 80%;
+}
+#about p {
+  text-align: justify;
+  color: gray;
+}
+/********SKILLS SECTION**************/
+#skills h2 {
+  text-align: center;
+  color: steelblue;
+}
+#skills h1 {
+  font-size: 4rem;
+  color: midnightblue;
+  background-color: deepskyblue;
+}
+#skills div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 4rem;
+  background-color: lightsteelblue;
+}
+/*****EXPERIENCE SECTION****************/
+#experience {
+  justify-content: center;
+  font-size: 3rem;
+  background-color: royalblue;
+}
+#experience div {
+  display: flex;
+}
+#experience .three {
+  justify-content: space-between;
+}
+#experience h1 {
+  font-size: 4rem;
+  color: midnightblue;
+  background-color: deepskyblue;
+}
+#experience h3 {
+  font-size: 4rem;
+  color: midnightblue;
+  background-color: mediumslateblue;
+}
+#experience h4 {
+  font-size: 4rem;
+  color: midnightblue;
+  background-color: mediumslateblue;
+}
+/*****GET IN TOUCH SECTION****************/
+footer {
+  background-color: slateblue;
+  padding: 3% 0;
+  text-align: center;
+  font-size: 4rem;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+}
+footer form {
+  width: 80%;
+}
+footer input,
+footer label,
+footer textarea {
+  width: 100%;
+  margin: 4% 0;
+}
+footer input,
+footer textarea {
+  border: none;
+  border-bottom: 3px solid dodgerblue;
+  background-color: mediumturquoise;
+}
+footer nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer nav:hover {
+  color: orchid;
+}
+footer button {
+  width: 100%;
+  background-color: indigo;
+  color: deepskyblue;
+  padding: 2% 0;
+  border: 2px solid blueviolet;
+  margin-bottom: 3%;
+}
+footer button:hover {
+  background-color: lightsteelblue;
+  color: mediumpurple;
+  border: 2px solid darkslateblue;
+}

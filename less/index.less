@@ -50,10 +50,277 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+
+	padding: 0;
+
+	margin: 0 auto;
+
+	max-width: 100%;
+	
+	// border: 2px grey solid;
 }
 
-html, body {
-    height: 100%;
+html {
+
+	font-size: 62.5%;
 }
+
+body {
+	line-height: 2;
+
+	font-size: 1.5rem;
+
+
+	// background-color: yellow;
+
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+	font-family: 'Liu Jian Mao Cao', cursive;
+
+	letter-spacing: 3px;
+
+	padding: 0;
+}
+
+/********NAV SECTION****************/
+
+nav {
+	display: flex;
+
+	font-size: 3rem;
+
+	background-color: black;
+
+	
+
+	a {
+		
+	text-decoration: none;
+
+	color: lightslategray;
+
+	
+	} // NAVIGATION A LINKS
+
+
+}  // NAVIGATION BAR 
+
+.title h1{
+
+	font-size: 9rem;
+
+	text-align: center;
+
+	color: gainsboro;
+
+	font-weight: bolder;
+
+}
+
+
+header {
+	height:80vh;
+	background-color:mediumturquoise;
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3kjJtrCK2AkhyMerpOMSSXR3jWKEpGUGQeEdeySuwten9hTor');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+  }
+
+/***ABOUT ME SECTION****************/
+
+#about{
+
+	background-color: lightslategray;
+	display:flex;
+	justify-content:center;
+
+	font-size: 4rem;
+
+	.text{
+		background-color: lightskyblue;
+		padding:4%;
+		text-align:center;
+		width:80%;
+	  } // ABOUT .TEXT BOX
+
+	  p{
+		text-align:justify;
+
+		color: gray;
+
+
+	  }  // ABOUT SECTION P TAGS
+
+  }  // ABOUT SECTION 
+  
+
+
+
+/********SKILLS SECTION**************/
+
+#skills {
+
+	h2 {
+
+		text-align: center;
+
+		color: steelblue;
+
+
+	}  // SKILLS H2
+
+	h1 {
+
+		font-size: 4rem;
+
+		color: midnightblue;
+
+		background-color: deepskyblue;
+	} // SKILLS H1
+
+		div{
+
+	display: flex;
+
+	justify-content: center;
+
+	flex-wrap: wrap;
+
+	width: 100%;
+
+	font-size: 4rem;
+
+	background-color: lightsteelblue;
+
+		} // SKILLS DIV
+
+
+
+	
+} // SKILLS SECTION 
+
+
+/*****EXPERIENCE SECTION****************/
+
+#experience {
+
+	div {
+
+		display: flex;
+
+	} // EXPERIENCE DIVS 
+
+	.three {
+
+		justify-content: space-between;
+
+	}  // .THREE DIV OF EXPERIENCE SECTION
+
+	justify-content: center;
+
+	font-size: 3rem;
+
+	background-color: royalblue;
+
+	h1 {
+
+		font-size: 4rem;
+
+		color: midnightblue;
+
+		background-color: deepskyblue;
+	} // EXPERIENCE H1
+
+	h3 {
+
+		font-size: 4rem;
+
+		color: midnightblue;
+
+		background-color: mediumslateblue;
+
+	} // EXPERIENCE H3
+
+	h4 {
+		font-size: 4rem;
+
+		color: midnightblue;
+
+		background-color: mediumslateblue;
+
+	}  // EXPERIENCE H4
+
+
+} // EXPERIENCE SECTION
+
+
+
+/*****GET IN TOUCH SECTION****************/
+
+
+
+
+footer{
+	background-color:slateblue;
+	padding: 3% 0;
+	text-align:center;
+
+	font-size: 4rem;
+
+	div{
+		display:flex;
+		justify-content:center;
+	  }
+
+	  form{
+		width:80%;
+	  }
+	   
+ 	 input, label, textarea{
+	width:100%;
+	margin:4% 0;
+  }
+
+  input, textarea{
+	border:none;
+	border-bottom:3px solid dodgerblue;
+	background-color:mediumturquoise;
+  }
+
+  nav{
+	width:80%;
+	display:flex;
+	justify-content:space-evenly;
+	
+  }
+
+  nav:hover{
+	color:orchid;
+  }
+
+  button{
+	width:100%;
+	background-color:indigo;
+	color:deepskyblue;
+	padding: 2% 0;
+	border: 2px solid blueviolet;
+	margin-bottom:3%;
+  }
+  
+  button:hover{
+	background-color:lightsteelblue;
+	color:mediumpurple;
+	border:2px solid darkslateblue;
+  }
+
+  } 
+
+ 
+
 

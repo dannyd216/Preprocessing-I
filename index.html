@@ -8,12 +8,164 @@
 
   <link rel="stylesheet" href="css/index.css">
 
+  <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
 <body>
-  <h1>My Resume</h1>
+
+
+  <header>
+
+    <nav>
+
+    <div id="thumbnailPic">
+
+      <img src="" alt="Thumbnail Pic of Danielle P">
+
+    </div>> 
+    
+    <br>
+
+    <div class="navLinks">
+      <a href="index.html" alt="Home link">Home</a>
+      <a href="#about" alt="About link">About</a>
+      <a href="#skills" alt="Skills link">Skills</a>
+      <a href="#exp" alt="experience link">Experience</a>
+      <a href="#contact" alt="Contact link">Contact</a>
+
+    </div> <!--NAVLINKS DIV-->
+
+    </nav> <!--NAV AT TOP LINE-->
+
+    <!--I WANT A HERO IMAGE HERE OF TECHNOLOGY-->
+
+    <br>
+
+    <br>
+
+    <div class="title">
+
+      <div class="nameTitle">
+
+        <h1>Danielle Parrish</h1>
+        <h1>Web Dev Student</h1>
+        <h1>Aurora, CO USA</h1>
+      </div>  <!--NAMETITLE DIV-->
+
+      <br>
+
+
+    </div>  <!--TITLE DIV-->
+    
+
+  </header>
+
+  <section id="about">
+    <div class="text">
+      <h2>A Little About Danielle...</h2>
+      <p>As a Web Dev student I am seeking and open to mentorship as well as any gems used throughout the industry.  I am currently studying HTML, CSS, and JS. I have experience using all of these and will continue to broaden my experience with these 3 platforms.</p>
+    </div>
+  </section>
+  <section id="skills">
+    <h1>My Skills</h1>
+    <div class="contanier"><!-- this opens the container div-->
+      <div><!-- this opens little div #1 -->  
+        <i class="fas fa-code"></i>
+        <h2>HTML</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum ducimus modi magni laborum saepe fugiat, facere dolor consequuntur. Eligendi fugit quo eius officia, nobis alias. Illo doloremque aspernatur quam illum.</p>
+      </div><!-- this closes little div #1-->
+      <div><!-- this opens little div #2 -->
+        <i class="fab fa-css3"></i>
+        <h2>CSS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolorem id voluptates inventore placeat! Sequi rem inventore maiores ipsum impedit repudiandae id a deserunt reiciendis, perspiciatis deleniti neque. Corporis, tempora?</p>
+      </div><!-- this closes little div #2-->
+      <div><!-- this opens little div #3 -->
+        <i class="fab fa-js"></i>
+        <h2>JavaScript</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis rerum ad minima accusamus maiores at reprehenderit earum suscipit dolorum. Maiores sit facere unde quod perferendis sapiente voluptas amet! Eaque, nemo.</p>
+      </div><!-- this closes little div #3 -->
+    </div> <!-- this closes the container div-->
+  </section>
+  <section id="experience">
+
+    <h1>My Experience</h1>
+
+    <div class="big-container"><!--this opens the first big div -->
+      <div class="one"> <!-- this opens little div #1-->
+        <h4>Experiences</h4>
+      </div><!-- this closes little div #1 -->
+      <div class="two"><!-- this opens little div #2-->
+        <img src="images\sprint1Scrnsht.jpg" alt="website thumbnail">
+      </div><!-- this closes little div #2 -->
+      <div class="three"><!-- this opens little div #3-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolorem molestias eveniet neque quibusdam doloremque eligendi quis culpa odio sint sit quidem aperiam quasi, saepe explicabo eos vitae fugit vero?</p>
+      </div><!-- this closes little div #3-->
+    </div><!-- this closes first the big div -->
+
+    <br>
+
+    <div class="big-container"><!--this opens second the big div -->
+      <div class="one"> <!-- this opens little div #1-->
+        <h4>Experiences</h4>
+      </div><!-- this closes little div #1 -->
+      <div class="two"><!-- this opens little div #2-->
+        <img src="images\sprint1Scrnsht2.jpg" alt="logo">
+      </div><!-- this closes little div #2 -->
+      <div class="three"><!-- this opens little div #3-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolorem molestias eveniet neque quibusdam doloremque eligendi quis culpa odio sint sit quidem aperiam quasi, saepe explicabo eos vitae fugit vero?</p>
+      </div><!-- this closes little div #3-->
+    </div><!-- this closes second the big div -->
+
+    <br>
+    
+    <div class="big-container"><!--this opens the third big div -->
+      <div class="one"> <!-- this opens little div #1-->
+        <h4>Experiences</h4>
+      </div><!-- this closes little div #1 -->
+      <div class="two"><!-- this opens little div #2-->
+        <img src="images\greatDesignServs.jpg" alt="logo">
+      </div><!-- this closes little div #2 -->
+      <div class="three"><!-- this opens little div #3-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolorem molestias eveniet neque quibusdam doloremque eligendi quis culpa odio sint sit quidem aperiam quasi, saepe explicabo eos vitae fugit vero?</p>
+      </div><!-- this closes little div #3-->
+    </div><!-- this closes the third big div -->
+  </section>
+  <footer>
+    <h2>Get In Touch with Me...</h2>
+    <div>
+      <form method="POST" action="https://formspree.io/dparrish216@gmail.com">
+        <label for="name">Your Name</label>
+        <input type="name" name="name">
+        <label for="email">Your Email</label>
+        <input type="email" name="email">
+        <label for="message">Your Message</label>
+        <textarea name="message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div>
+      <nav>
+        
+      </nav>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
